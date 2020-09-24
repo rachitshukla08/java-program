@@ -8,20 +8,20 @@
  */
 public class EmpWageBuilderUC5 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		final int isPartTime = 1;
 		final int isFullTime = 2;
 		final int empRatePerHour = 20;
 		final int noOfWorkingDays = 20;
+		//variables
 		int empHrs = 0;
 		int empWage = 0;
 		int totalWage = 0;
+		//computation
 
 		for (int i = 0; i < noOfWorkingDays; i++) {
 			int random = (int) Math.floor(Math.random() * 10) % 3;
+			//Random variable to check whether employee is part time, full time or absent
 			switch (random) {
 				case isPartTime:
 					empHrs = 4;
