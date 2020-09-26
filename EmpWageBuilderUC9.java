@@ -27,7 +27,6 @@ public class EmpWageBuilderUC9 {
 	public void computeEmpWage() {
 		int empHrs = 0;
 		int totalWorkingDays = 0;
-
 		int totalEmpHrs = 0;
 		// Computation
 		while (totalWorkingDays < noOfWorkingDays && totalEmpHrs <= maxHoursInMonth)
@@ -70,7 +69,7 @@ public class EmpWageBuilderUC9 {
 		System.out.println(dMart);
 		reliance.computeEmpWage();
 		System.out.println(reliance);
-		
+
 	}
 
 }

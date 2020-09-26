@@ -11,7 +11,7 @@ public class EmpWageBuilderUC8 {
 	public static final int isPartTime = 1;
 	public static final int isFullTime = 2;
 
-	public static int computeEmpWage(String companyName,int empRatePerHour,int noOfWorkingDays,int maxHoursInMonth) {
+	public static int computeEmpWage(String companyName, int empRatePerHour, int noOfWorkingDays, int maxHoursInMonth) {
 		// Variables
 		int empHrs = 0;
 		int totalWorkingDays = 0;
@@ -45,15 +45,15 @@ public class EmpWageBuilderUC8 {
 
 		}
 		totalWage = totalEmpHrs * empRatePerHour;
-		System.out.println("Total Emp Wage for company: "+companyName+" is: " + totalWage);
+		System.out.println("Total Emp Wage for company: " + companyName + " is: " + totalWage);
 		// Calculating and printing total wage for 20days or 100 hours
 		return totalWage;
 
 	}
 
 	public static void main(String[] args) {
-		 computeEmpWage("Dmart",20,2,10);
-		 computeEmpWage("Reliance",10,4,20);
+		computeEmpWage("Dmart", 20, 2, 10);
+		computeEmpWage("Reliance", 10, 4, 20);
 	}
 
 }
