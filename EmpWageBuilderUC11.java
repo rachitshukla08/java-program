@@ -30,7 +30,7 @@ public class EmpWageBuilderUC11 implements IComputeEmpWageUC11 {
 		}
 	}
 
-	private int computeEmpWage(CompanyEmpWageUC11 companyEmpWage) {
+	public int computeEmpWage(CompanyEmpWageUC11 companyEmpWage) {
 		int empHrs = 0;
 		int totalWorkingDays = 0;
 		int totalEmpHrs = 0;
