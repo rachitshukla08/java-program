@@ -1,4 +1,4 @@
-/**Ability to manage Employee Wage of multiple companies
+/**Ability to manage Employee Wage of multiple companies using API approach
  * 
  */
 
@@ -6,14 +6,14 @@
  * @author Rachit
  *
  */
-public class CompanyEmpWageUC10 {
+public class CompanyEmpWageUC11 {
 	public final String company;
 	public final int empRatePerHour;
 	public final int noOfWorkingDays;
 	public final int maxHoursInMonth;
 	public int totalWage;
 	
-	public CompanyEmpWageUC10(String company, int empRatePerHour, int noOfWorkingDays, int maxHoursInMonth) {
+	public CompanyEmpWageUC11(String company, int empRatePerHour, int noOfWorkingDays, int maxHoursInMonth) {
 		this.company = company;
 		this.empRatePerHour = empRatePerHour;
 		this.noOfWorkingDays = noOfWorkingDays;
@@ -33,5 +33,4 @@ public class CompanyEmpWageUC10 {
 		return "Total emp wage for company " + company + " is : " + totalWage;
 	}
 
-	
 }
